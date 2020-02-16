@@ -94,3 +94,28 @@ So for a pyramid of size n:
 - The last line will be: (n-1)-(n-1)=0, (n-1)+1=n
 
 Solution is found in: `mario_more_comfy.c`
+
+
+<br>
+
+## Proble Set 1: Mario - less comfortable
+
+The slightly more difficult version of mario is to make a pyramid that looks like this.
+
+```
+$ ./mario
+Height: 8
+       #  #
+      ##  ##
+     ###  ###
+    ####  ####
+   #####  #####
+  ######  ######
+ #######  #######
+########  ########
+```
+
+### My thoughts
+Since we have the harder bit out of the way, we just need to add two spaces and a right aligned pyramid (ie: no spaces).
+
+Solution: `mario_less_comfy.c`
